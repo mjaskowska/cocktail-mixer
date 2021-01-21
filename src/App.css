@@ -3,10 +3,15 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background: bisque;
   text-align: center
+}
+.App {
+  background: url('./assets/dark-background.jpg');
+  object-fit: cover;
+  min-height: 100vh;
 }
 .main-title {
   font-size: 30px;
-  margin: 30px auto;
+  color: rgb(231, 114, 4);
+  padding-top: 15vh;
 }
