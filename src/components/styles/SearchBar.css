@@ -14,6 +14,8 @@
     background: rgba(255, 255, 255, 0.815);
     box-shadow: 0 5px 0.9rem rgb(97, 93, 93);
     margin: 20px auto;
+    color: rgb(231, 114, 4);
+    font-weight: bold;
 }
 .search-input:focus {
     border: 3px solid rgb(231, 114, 4);

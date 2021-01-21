@@ -1,0 +1,10 @@
+.cocktail-container{
+    width: 90%;
+    max-width: 1000px;
+    padding-bottom: 20vh;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-rows: repear(auto-fit, minmax(300px, 350px));
+    grid-gap: 10px;
+}
