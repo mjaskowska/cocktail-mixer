@@ -13,10 +13,22 @@ function App() {
     const fetchDrinks = async () => {
       const result = await axios(`https://www.thecocktaildb.com/api/json/v1/1/search.php?s=${query}`);
 
-      
-      setItems(result.data.drinks);
-      console.log(result.data.drinks);
+      const response = result.data.drinks
+
+      const validateInput = (response) => {
+        if (response === null ) {
+          const validOutput = ['margarita']
+          return validOutput
+        }
+        else { 
+          const validOutput = result.data.drinks
+          return validOutput
+        }
+      }
+
+      setItems(validateInput(response));
       setIsLoading(false);
+
     };
     fetchDrinks();
   }, [query]);

@@ -3,7 +3,6 @@ import './styles/Cocktail.css'
 
 const Cocktail = ({item}) => {
     
-    console.log(item)
     return (
         <div className="drink-card">
             {item.strDrink}
