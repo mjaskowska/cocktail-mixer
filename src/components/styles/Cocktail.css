@@ -1,0 +1,11 @@
+.drink-img {
+    width: 200px;
+    display: block;
+    margin: auto;
+    object-fit: contain;
+}
+.drink-card {
+    border: 1px solid red;
+    max-width: 210px;
+    margin: auto;
+}

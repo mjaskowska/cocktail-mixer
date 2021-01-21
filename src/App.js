@@ -1,17 +1,31 @@
-import React from 'react'
-import './App.css';
-
-import CocktailList from './components/CocktailList'
+import React, { useState, useEffect } from "react";
+import "./App.css";
+import axios from "axios";
+import Cocktails from "./components/Cocktails";
+import SearchBar from './components/SearchBar'
 
 function App() {
+  const [items, setItems] = useState([]);
+  const [isLoading, setIsLoading] = useState(true);
+  const [query, setQuery] = useState('margarita')
 
- 
+  useEffect(() => {
+    const fetchDrinks = async () => {
+      const result = await axios(`https://www.thecocktaildb.com/api/json/v1/1/search.php?s=${query}`);
+
+      
+      setItems(result.data.drinks);
+      console.log(result.data.drinks);
+      setIsLoading(false);
+    };
+    fetchDrinks();
+  }, [query]);
 
   return (
     <div className="App">
       <h1 className="main-title">Let's mix some cocktails!</h1>
-      <CocktailList />
-       
+      <SearchBar getQuery={(q)=>setQuery(q)} />
+      <Cocktails isLoading={isLoading} items={items} />
     </div>
   );
 }
