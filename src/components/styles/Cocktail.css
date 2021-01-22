@@ -1,31 +1,70 @@
 .drink-card {
-    width: 100%;
-    background: #222222;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    box-shadow: 7px 5px 0.8rem #ff990049;
+  background: transparent;
+  cursor: pointer;
+  position: relative;
 }
-.drink-card:hover {
-    transform: scale(1.05) 
+.card-inner {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transition: all 0.8s ease;
+  transform-style: preserve-3d;
+  perspective: 1000px;
 }
-.drink-card:focus {
-    color: white;
+.drink-card:hover .card-inner {
+  transform: rotateY(180deg);
 }
 
-.drink-title{
-    color: #FF9900;
-    font-weight: bold;
-    margin: 10px auto;
+.card-front,
+.card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+.card-back {
+  transform: rotateY(180deg);
+  background: rgb(12, 12, 12);
+}
+
+.drink-title {
+  color: #ff9900;
+  font-weight: bold;
+  margin: 10px auto;
+  text-shadow: 0 0 0.3rem rgba(231, 114, 4, 0.8);
 }
 
 .drink-img {
-    min-width: 150px;
-    max-width: 250px;
-    width: 100%;
-    height: 100%;
-    max-height: 250px;
-    display: block;
-    object-fit: cover;
+  min-width: 150px;
+  max-width: 250px;
+  width: 100%;
+  height: 100%;
+  max-height: 250px;
+  object-fit: cover;
+}
+
+ul {
+    list-style: none;
+    margin-top: 5px;
+    font-size: 0.85rem;
+}
+
+li {
+    color: white;
+    text-align: left;
+}
+.instructions {
+    margin-top: 5px;
+    font-size: 0.7rem;
+}
+.ingredient-list{
+    font-size: 0.7rem;
+}
+.ingredient {
+    padding: 0 5px;
+}
+.category {
+    font-weight: bold;
+    color: #ff9900;
+    font-size: 0.8rem;
 }

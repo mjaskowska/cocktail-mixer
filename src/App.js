@@ -8,7 +8,7 @@ function App() {
   const [items, setItems] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
   const [query, setQuery] = useState('margarita')
-
+  console.log(items)
   useEffect(() => {
     const fetchDrinks = async () => {
       const result = await axios(`https://www.thecocktaildb.com/api/json/v1/1/search.php?s=${query}`);

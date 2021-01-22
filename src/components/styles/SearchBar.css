@@ -21,3 +21,8 @@
     border: 3px solid rgb(231, 114, 4);
     background: rgba(256, 256,256, 1);
 }
+.search-input::placeholder{
+    color: rgb(231, 114, 4);
+    font-weight: normal;
+    font-style: italic;
+}
