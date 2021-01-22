@@ -60,9 +60,7 @@ li {
 .ingredient-list{
     font-size: 0.7rem;
 }
-.ingredient {
-    padding: 0 5px;
-}
+
 .category {
     font-weight: bold;
     color: #ff9900;

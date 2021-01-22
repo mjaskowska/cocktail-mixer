@@ -6,7 +6,7 @@
 
 .search-input {
     border: 3px solid rgba(255, 255, 255, 0.623);
-    border-radius: 20px;
+    border-radius: 12px;
     height: 2rem;
     width: 60vw;
     max-width: 600px;
