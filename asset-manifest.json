@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/cocktail-mixer/static/css/main.ff849e23.chunk.css",
+    "main.js": "/cocktail-mixer/static/js/main.b3fe18d0.chunk.js",
+    "main.js.map": "/cocktail-mixer/static/js/main.b3fe18d0.chunk.js.map",
+    "runtime-main.js": "/cocktail-mixer/static/js/runtime-main.ea7698a0.js",
+    "runtime-main.js.map": "/cocktail-mixer/static/js/runtime-main.ea7698a0.js.map",
+    "static/js/2.795ec0ab.chunk.js": "/cocktail-mixer/static/js/2.795ec0ab.chunk.js",
+    "static/js/2.795ec0ab.chunk.js.map": "/cocktail-mixer/static/js/2.795ec0ab.chunk.js.map",
+    "static/js/3.58a88b49.chunk.js": "/cocktail-mixer/static/js/3.58a88b49.chunk.js",
+    "static/js/3.58a88b49.chunk.js.map": "/cocktail-mixer/static/js/3.58a88b49.chunk.js.map",
+    "index.html": "/cocktail-mixer/index.html",
+    "static/css/main.ff849e23.chunk.css.map": "/cocktail-mixer/static/css/main.ff849e23.chunk.css.map",
+    "static/js/2.795ec0ab.chunk.js.LICENSE.txt": "/cocktail-mixer/static/js/2.795ec0ab.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/cocktail-mixer/static/media/dark-background.8ddcf1a8.jpg",
+    "static/media/loading-icon.696cd6cc.gif": "/cocktail-mixer/static/media/loading-icon.696cd6cc.gif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ea7698a0.js",
+    "static/js/2.795ec0ab.chunk.js",
+    "static/css/main.ff849e23.chunk.css",
+    "static/js/main.b3fe18d0.chunk.js"
+  ]
+}
