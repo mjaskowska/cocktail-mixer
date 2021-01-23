@@ -9,7 +9,6 @@ function App() {
   const [isLoading, setIsLoading] = useState(true);
   const [query, setQuery] = useState("margarita");
 
-
   useEffect(() => {
     const fetchDrinks = async () => {
       const result = await axios(
@@ -34,8 +33,6 @@ function App() {
     fetchDrinks();
   }, [query]);
 
-
-  
 
   return (
     <div className="App">

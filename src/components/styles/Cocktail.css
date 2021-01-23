@@ -14,7 +14,6 @@
 .drink-card:hover .card-inner {
   transform: rotateY(180deg);
 }
-
 .card-front,
 .card-back {
   position: absolute;
@@ -26,14 +25,12 @@
   transform: rotateY(180deg);
   background: rgb(12, 12, 12);
 }
-
 .drink-title {
   color: #ff9900;
   font-weight: bold;
   margin: 10px auto;
   text-shadow: 0 0 0.3rem rgba(231, 114, 4, 0.8);
 }
-
 .drink-img {
   min-width: 150px;
   max-width: 250px;
@@ -42,27 +39,24 @@
   max-height: 250px;
   object-fit: cover;
 }
-
 ul {
-    list-style: none;
-    margin-top: 5px;
-    font-size: 0.85rem;
+  list-style: none;
+  margin-top: 5px;
+  font-size: 0.85rem;
 }
-
 li {
-    color: white;
-    text-align: left;
+  color: white;
+  text-align: left;
 }
 .instructions {
-    margin-top: 5px;
-    font-size: 0.7rem;
+  margin-top: 5px;
+  font-size: 0.7rem;
 }
-.ingredient-list{
-    font-size: 0.7rem;
+.ingredient-list {
+  font-size: 0.7rem;
 }
-
 .category {
-    font-weight: bold;
-    color: #ff9900;
-    font-size: 0.8rem;
+  font-weight: bold;
+  color: #ff9900;
+  font-size: 0.8rem;
 }

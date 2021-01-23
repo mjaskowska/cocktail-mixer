@@ -1,15 +1,13 @@
 import React, { useState } from "react";
-import './styles/SearchBar.css'
+import "./styles/SearchBar.css";
 
-const SearchBar = ({getQuery}) => {
+const SearchBar = ({ getQuery }) => {
   const [searchInput, setSearchInput] = useState("");
 
-  
-  const handleChange =  (q) => {
-      setSearchInput(q)
-      getQuery(q)
-
-  }
+  const handleChange = (q) => {
+    setSearchInput(q);
+    getQuery(q);
+  };
   return (
     <section className="search-container">
       <form>
@@ -18,7 +16,7 @@ const SearchBar = ({getQuery}) => {
           className="search-input"
           placeholder="Search cocktail"
           value={searchInput}
-          onChange={(e)=> handleChange(e.target.value)}
+          onChange={(e) => handleChange(e.target.value)}
           autoFocus
         />
       </form>
