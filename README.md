@@ -7,3 +7,5 @@ Cocktail mixer React app that fetches API (Axios) allowing users to search for t
 - React
 - React Context
 - Axios
+
+[see live](https://mjaskowska.github.io/cocktail-mixer/)
