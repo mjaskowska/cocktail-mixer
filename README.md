@@ -9,3 +9,24 @@ Cocktail mixer React app that fetches API (Axios) allowing users to search for t
 - Axios
 
 [see live](https://mjaskowska.github.io/cocktail-mixer/)
+
+
+## A Gentle Introduction to GitHub
+
+This section will cover basic operations from the command line for the reader to create a local copy of this repository.
+
+### Cloning the Repository
+
+1. First, navigate to the directory that you would like to clone the repository into using commands like:
+
+    cd: to change your working directory.
+    cd ../ to "go back" a level in your directory tree.
+
+2. Next, clone the remote repository and create a local copy on your machine using this command:
+
+    git clone https://github.com/mjaskowska/cocktail-mixer.git
+
+Now you can see the contents of the remote repository on your machine by moving into the newly cloned directory:
+
+    cd cocktail-mixer
+    ls
